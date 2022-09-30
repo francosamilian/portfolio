@@ -569,6 +569,7 @@ progress {
   width: 250px;
   border-radius: 150px;
   margin-left: -60%;
+  border: 3px solid black;
 }
 
 .display-foto-cv {
