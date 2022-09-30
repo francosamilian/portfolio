@@ -564,6 +564,20 @@ progress {
   list-style: none;
 }
 
+.photoCV {
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+  margin-left: -60%;
+}
+
+.display-foto-cv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .list-inline {
   padding-left: 0;
   list-style: none;
@@ -1400,7 +1414,7 @@ progress {
 
   .col-lg-8 {
     flex: 0 0 auto;
-    width: 66.66666667%;
+    /* width: 66.66666667%; */
   }
 
   .col-lg-9 {
