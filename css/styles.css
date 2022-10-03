@@ -616,7 +616,8 @@ progress {
 
 .img-fluid {
   max-width: 100%;
-  height: auto;
+  height: 45vh;
+  border-radius: 25px;
 }
 
 .img-thumbnail {
@@ -1395,7 +1396,21 @@ progress {
 
   .col-lg-4 {
     flex: 0 0 auto;
-    width: 33.33333333%;
+    width: 40%;
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+
+  /* .image {
+    border-radius: 5px;
+  } */
+
+  .image:hover {
+    /* opacity: 0.3; */
+    -webkit-transform: scale(1.05);
+    border-radius: 5px;
+
+    transform: scale(1.05);
   }
 
   .col-lg-5 {
@@ -11321,6 +11336,53 @@ body {
   color: rgba(255, 255, 255, 0.75) !important;
 }
 
+.text-black {
+  color: #101214;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .project-image {
+  height: 200px;
+  width: 400px;
+} */
+
+.project-title {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
 .btn-xl {
   padding: 1.25rem 2.25rem;
   font-size: 0.85rem;
@@ -11438,6 +11500,8 @@ header.masthead h1, header.masthead .h1 {
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl, #portfolio .container-xxl {
   max-width: 1920px;
+  margin-top: 20px;
+  
 }
 #portfolio .container-fluid .portfolio-box, #portfolio .container-sm .portfolio-box, #portfolio .container-md .portfolio-box, #portfolio .container-lg .portfolio-box, #portfolio .container-xl .portfolio-box, #portfolio .container-xxl .portfolio-box {
   position: relative;
